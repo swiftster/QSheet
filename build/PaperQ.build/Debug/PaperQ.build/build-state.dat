@@ -1,28 +1,28 @@
 TPaperQ
 v7
 r0
-t317495001.104850
+t317497493.908847
 cCheck dependencies
-cProcessInfoPlistFile /Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/Info.plist Info.plist
+cProcessInfoPlistFile /Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Info.plist Info.plist
 cCpResource build/Debug/PaperQ.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
-cCopyStringsFile /Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileXIB /Users/jasontratta/Dropbox/Code/PaperQ/English.lproj/MainMenu.xib
-cCompileXIB /Users/jasontratta/Dropbox/Code/PaperQ/English.lproj/MyDocument.xib
-cCompileXIB /Users/jasontratta/Dropbox/Code/PaperQ/Inspector.xib
-cCompileXIB /Users/jasontratta/Dropbox/Code/PaperQ/StillSelector.xib
-cCompileXIB /Users/jasontratta/Dropbox/Code/PaperQ/PrintBuilder.xib
-cProcessPCH /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-fkypezjbzaojolaszgbkdqawtfgg/PaperQ_Prefix.pch.gch PaperQ_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cDataModelCompile /Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/Resources/MyDocument.mom /Users/jasontratta/Dropbox/Code/PaperQ/MyDocument.xcdatamodel
-cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/MyDocument-528B0CF58FE91DC2.o /Users/jasontratta/Dropbox/Code/PaperQ/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/main.o /Users/jasontratta/Dropbox/Code/PaperQ/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PreferenceController.o /Users/jasontratta/Dropbox/Code/PaperQ/PreferenceController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/QlabScripting.o /Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/ImportOp.o /Users/jasontratta/Dropbox/Code/PaperQ/ImportOp.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/DataScrollView.o /Users/jasontratta/Dropbox/Code/PaperQ/DataScrollView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PrintView.o /Users/jasontratta/Dropbox/Code/PaperQ/PrintView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/InspectorView.o /Users/jasontratta/Dropbox/Code/PaperQ/InspectorView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/MacOS/PaperQ normal i386
-cTouch /Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app
+cCopyStringsFile /Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/jasontratta/PaperQ/English.lproj/MainMenu.xib
+cCompileXIB /Users/jasontratta/PaperQ/English.lproj/MyDocument.xib
+cCompileXIB /Users/jasontratta/PaperQ/Inspector.xib
+cCompileXIB /Users/jasontratta/PaperQ/StillSelector.xib
+cCompileXIB /Users/jasontratta/PaperQ/PrintBuilder.xib
+cProcessPCH /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-hblpaiwwhnvtryepxasyftfhddhm/PaperQ_Prefix.pch.gch PaperQ_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Resources/MyDocument.mom /Users/jasontratta/PaperQ/MyDocument.xcdatamodel
+cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/MyDocument-528B0CF58FE91DC2.o /Users/jasontratta/PaperQ/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/main.o /Users/jasontratta/PaperQ/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PreferenceController.o /Users/jasontratta/PaperQ/PreferenceController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/QlabScripting.o /Users/jasontratta/PaperQ/QlabScripting.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/ImportOp.o /Users/jasontratta/PaperQ/ImportOp.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/DataScrollView.o /Users/jasontratta/PaperQ/DataScrollView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PrintView.o /Users/jasontratta/PaperQ/PrintView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/InspectorView.o /Users/jasontratta/PaperQ/InspectorView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/MacOS/PaperQ normal i386
+cTouch /Users/jasontratta/PaperQ/build/Debug/PaperQ.app
 
 N/Developer/SDKs/MacOSX10.5.sdk
 c000000004C238B9B00000000000000EE
@@ -557,6 +557,242 @@ t1253989592
 s247
 i<Cocoa/Cocoa.h>
 
+N/Users/jasontratta/PaperQ/DataScrollView.h
+c000000004B16D44A00000000000000DA
+t1259787338
+s218
+i<Cocoa/Cocoa.h>
+
+N/Users/jasontratta/PaperQ/DataScrollView.m
+c000000004B16D464000000000000010F
+t1259787364
+s271
+i"DataScrollView.h"
+
+N/Users/jasontratta/PaperQ/English.lproj/Credits.rtf
+c000000004B0463B30000000000000066
+t1258578867
+s102
+
+N/Users/jasontratta/PaperQ/English.lproj/InfoPlist.strings
+c000000004ABE5CD800000000000000CA
+t1253989592
+s202
+
+N/Users/jasontratta/PaperQ/English.lproj/MainMenu.xib
+c000000004ABE5CD8000000000001F073
+t1253989592
+s127091
+
+N/Users/jasontratta/PaperQ/English.lproj/MyDocument.xib
+c000000004B3910FB000000000001FF01
+t1262031099
+s130817
+
+N/Users/jasontratta/PaperQ/ImportOp.h
+c000000004B16CD0600000000000003B6
+t1259785478
+s950
+i<Cocoa/Cocoa.h>
+i"MyDocument.h"
+i"QlabScripting.h"
+i"Qlab.h"
+
+N/Users/jasontratta/PaperQ/ImportOp.m
+c000000004B17D09800000000000026AE
+t1259851928
+s9902
+i"ImportOp.h"
+
+N/Users/jasontratta/PaperQ/Inspector.xib
+c000000004B1857E5000000000000B50F
+t1259886565
+s46351
+
+N/Users/jasontratta/PaperQ/InspectorView.h
+c000000004B18237C00000000000000D1
+t1259873148
+s209
+i<Cocoa/Cocoa.h>
+
+N/Users/jasontratta/PaperQ/InspectorView.m
+c000000004B18237C00000000000001A7
+t1259873148
+s423
+i"InspectorView.h"
+
+N/Users/jasontratta/PaperQ/MyDocument.h
+c000000004B05AA250000000000000177
+t1258662437
+s375
+i<Cocoa/Cocoa.h>
+
+N/Users/jasontratta/PaperQ/MyDocument.m
+c000000004D3C6C4300000000000003FC
+t1295805507
+s1020
+i"MyDocument.h"
+i"ImportOp.h"
+
+N/Users/jasontratta/PaperQ/MyDocument.xcdatamodel
+c000000004D1FA6D40000000000000088
+t1293919956
+s136
+
+N/Users/jasontratta/PaperQ/PaperQ_Prefix.pch
+c000000004ABE5CD800000000000000D7
+t1253989592
+s215
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i<Cocoa/Cocoa.h>
+
+N/Users/jasontratta/PaperQ/PreferenceController.h
+c000000004A57824E000000000000077A
+t1247248974
+s1914
+i<Cocoa/Cocoa.h>
+
+N/Users/jasontratta/PaperQ/PreferenceController.m
+c000000004A5BCEFF0000000000002808
+t1247530751
+s10248
+i"PreferenceController.h"
+
+N/Users/jasontratta/PaperQ/PrintBuilder.xib
+c000000004B18220B00000000000062FB
+t1259872779
+s25339
+
+N/Users/jasontratta/PaperQ/PrintView.h
+c000000004B17E5E300000000000000C9
+t1259857379
+s201
+i<Cocoa/Cocoa.h>
+
+N/Users/jasontratta/PaperQ/PrintView.m
+c000000004B17E5E3000000000000019B
+t1259857379
+s411
+i"PrintView.h"
+
+N/Users/jasontratta/PaperQ/Qlab.h
+c000000004A99A6350000000000004944
+t1251583541
+s18756
+i<AppKit/AppKit.h>
+i<ScriptingBridge/ScriptingBridge.h>
+
+N/Users/jasontratta/PaperQ/QlabScripting.h
+c000000004A995B9800000000000004BB
+t1251564440
+s1211
+i<Cocoa/Cocoa.h>
+i"PreferenceController.h"
+
+N/Users/jasontratta/PaperQ/QlabScripting.m
+c000000004A995BA40000000000002765
+t1251564452
+s10085
+i"QlabScripting.h"
+i"Qlab.h"
+
+N/Users/jasontratta/PaperQ/StillSelector.xib
+c000000004B06028400000000000CE6F2
+t1258685060
+s845554
+
+N/Users/jasontratta/PaperQ/build/Debug/PaperQ.app
+t1295804693
+s102
+
+N/Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Info.plist
+t1258646196
+s2434
+
+N/Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/MacOS/PaperQ
+t1295804693
+s53772
+
+N/Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/PkgInfo
+t1258646196
+s8
+
+N/Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Resources/English.lproj/Credits.rtf
+t1258579476
+s102
+
+N/Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1258576529
+s202
+
+N/Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Resources/English.lproj/MainMenu.nib
+t1258685569
+s27676
+
+N/Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Resources/English.lproj/MyDocument.nib
+t1262037544
+s26513
+
+N/Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Resources/Inspector.nib
+t1260659560
+s7264
+
+N/Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Resources/MyDocument.mom
+t1295802197
+s6295
+
+N/Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Resources/PrintBuilder.nib
+t1260659559
+s2068
+
+N/Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Resources/StillSelector.nib
+t1258685574
+s610442
+
+N/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/DataScrollView.o
+t1295804693
+s20908
+
+N/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/ImportOp.o
+t1295804693
+s49360
+
+N/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/InspectorView.o
+t1295804693
+s13020
+
+N/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/MyDocument-528B0CF58FE91DC2.o
+t1295804693
+s25512
+
+N/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PaperQ.LinkFileList
+c000000004D3C69120000000000000324
+t1295804690
+s804
+
+N/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PreferenceController.o
+t1295804693
+s46028
+
+N/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PrintView.o
+t1295804693
+s12976
+
+N/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/QlabScripting.o
+t1295804693
+s41172
+
+N/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/main.o
+t1295804693
+s4832
+
+N/Users/jasontratta/PaperQ/main.m
+c000000004ABE5CD800000000000000F7
+t1253989592
+s247
+i<Cocoa/Cocoa.h>
+
 N/Users/jtratta/Dropbox/Code/PaperQ/DataScrollView.h
 c000000004B16D44A00000000000000DA
 t1259787338
@@ -822,6 +1058,10 @@ N/var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/Shared
 t1295802197
 s54075824
 
+N/var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-hblpaiwwhnvtryepxasyftfhddhm/PaperQ_Prefix.pch.gch
+t1295804693
+s54075824
+
 NInfo.plist
 c000000004B0467EC00000000000009FF
 t1258579948
@@ -829,7 +1069,7 @@ s2559
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies317494982#317494983#0(0"0(0#1#0"8247620834010738688#0"0#
+lSLF07#2@18"Check dependencies317497490#317497490#0(0"0(0#1#0"8247620834010738688#0"0#
 
 CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/DataScrollView.o /Users/jason/Dropbox/Code/PaperQ/DataScrollView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s281480165.918673
@@ -856,6 +1096,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@63"Compile /Users/jasontratta/Dropbox/Code/PaperQ/DataScrollView.m317494998#317494998#0(0"0(0#0#55"/Users/jasontratta/Dropbox/Code/PaperQ/DataScrollView.m8592958144#1097"    cd /Users/jasontratta/Dropbox/Code/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug -I/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/include -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-fkypezjbzaojolaszgbkdqawtfgg/PaperQ_Prefix.pch -c /Users/jasontratta/Dropbox/Code/PaperQ/DataScrollView.m -o /Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/DataScrollView.o0#
+
+CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/DataScrollView.o /Users/jasontratta/PaperQ/DataScrollView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317497493.585836
+e317497493.796391
+r1
+xCompileC
+xbuild/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/DataScrollView.o
+x/Users/jasontratta/PaperQ/DataScrollView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/jasontratta/PaperQ/DataScrollView.m317497493#317497493#0(0"0(0#0#42"/Users/jasontratta/PaperQ/DataScrollView.m8603795488#993"    cd /Users/jasontratta/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/PaperQ/build/Debug -I/Users/jasontratta/PaperQ/build/Debug/include -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-hblpaiwwhnvtryepxasyftfhddhm/PaperQ_Prefix.pch -c /Users/jasontratta/PaperQ/DataScrollView.m -o /Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/DataScrollView.o0#
 
 CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/DataScrollView.o /Users/jtratta/Dropbox/Code/PaperQ/DataScrollView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282352385.618594
@@ -906,6 +1159,24 @@ o/Users/jasontratta/Dropbox/Code/PaperQ/Qlab.h:208: warning: also found '-(NSStr
 o/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:291: warning: also found '-(long long unsigned int)uniqueID'
 lSLF07#2@57"Compile /Users/jasontratta/Dropbox/Code/PaperQ/ImportOp.m317494997#317494998#0(585"/Users/jasontratta/Dropbox/Code/PaperQ/ImportOp.m: In function '-[ImportOp main]':/Users/jasontratta/Dropbox/Code/PaperQ/ImportOp.m:111: warning: multiple methods named '-uniqueID' found/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSScriptObjectSpecifiers.h:287: warning: using '-(id)uniqueID'/Users/jasontratta/Dropbox/Code/PaperQ/Qlab.h:208: warning: also found '-(NSString *)uniqueID'/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:291: warning: also found '-(long long unsigned int)uniqueID'4(22@40"Multiple methods named '-uniqueID' found317494997#83#105#0(6@49"/Users/jasontratta/Dropbox/Code/PaperQ/ImportOp.m281544728#111#0#111#0#0"0(22@21"Using '-(id)uniqueID'317494997#188#149#0(6@112"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSScriptObjectSpecifiers.h236247372#287#0#287#0#0"0(22@34"Also found '-(NSString *)uniqueID'317494997#337#95#0(6@45"/Users/jasontratta/Dropbox/Code/PaperQ/Qlab.h273276341#208#0#208#0#0"0(22@46"Also found '-(long long unsigned int)uniqueID'317494997#432#153#0(6@91"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h236253962#291#0#291#0#0"0(0#0#49"/Users/jasontratta/Dropbox/Code/PaperQ/ImportOp.m8599291488#1085"    cd /Users/jasontratta/Dropbox/Code/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug -I/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/include -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-fkypezjbzaojolaszgbkdqawtfgg/PaperQ_Prefix.pch -c /Users/jasontratta/Dropbox/Code/PaperQ/ImportOp.m -o /Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/ImportOp.o0#
 
+CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/ImportOp.o /Users/jasontratta/PaperQ/ImportOp.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317497493.524492
+e317497493.849558
+r1
+xCompileC
+xbuild/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/ImportOp.o
+x/Users/jasontratta/PaperQ/ImportOp.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jasontratta/PaperQ/ImportOp.m: In function '-[ImportOp main]':
+o/Users/jasontratta/PaperQ/ImportOp.m:111: warning: multiple methods named '-uniqueID' found
+o/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSScriptObjectSpecifiers.h:287: warning: using '-(id)uniqueID'
+o/Users/jasontratta/PaperQ/Qlab.h:208: warning: also found '-(NSString *)uniqueID'
+o/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:291: warning: also found '-(long long unsigned int)uniqueID'
+lSLF07#2@44"Compile /Users/jasontratta/PaperQ/ImportOp.m317497493#317497493#0(546"/Users/jasontratta/PaperQ/ImportOp.m: In function '-[ImportOp main]':/Users/jasontratta/PaperQ/ImportOp.m:111: warning: multiple methods named '-uniqueID' found/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSScriptObjectSpecifiers.h:287: warning: using '-(id)uniqueID'/Users/jasontratta/PaperQ/Qlab.h:208: warning: also found '-(NSString *)uniqueID'/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h:291: warning: also found '-(long long unsigned int)uniqueID'4(22@40"Multiple methods named '-uniqueID' found317497493#70#92#0(6@36"/Users/jasontratta/PaperQ/ImportOp.m281544728#111#0#111#0#0"0(22@21"Using '-(id)uniqueID'317497493#162#149#0(6@112"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSScriptObjectSpecifiers.h236247372#287#0#287#0#0"0(22@34"Also found '-(NSString *)uniqueID'317497493#311#82#0(6@32"/Users/jasontratta/PaperQ/Qlab.h273276341#208#0#208#0#0"0(22@46"Also found '-(long long unsigned int)uniqueID'317497493#393#153#0(6@91"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSEvent.h236253962#291#0#291#0#0"0(0#0#36"/Users/jasontratta/PaperQ/ImportOp.m8030038296693716992#981"    cd /Users/jasontratta/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/PaperQ/build/Debug -I/Users/jasontratta/PaperQ/build/Debug/include -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-hblpaiwwhnvtryepxasyftfhddhm/PaperQ_Prefix.pch -c /Users/jasontratta/PaperQ/ImportOp.m -o /Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/ImportOp.o0#
+
 CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/ImportOp.o /Users/jtratta/Dropbox/Code/PaperQ/ImportOp.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282352385.375228
 e282352385.738298
@@ -939,6 +1210,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@62"Compile /Users/jasontratta/Dropbox/Code/PaperQ/InspectorView.m317494998#317494998#0(0"0(0#0#54"/Users/jasontratta/Dropbox/Code/PaperQ/InspectorView.m8603108032#1095"    cd /Users/jasontratta/Dropbox/Code/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug -I/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/include -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-fkypezjbzaojolaszgbkdqawtfgg/PaperQ_Prefix.pch -c /Users/jasontratta/Dropbox/Code/PaperQ/InspectorView.m -o /Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/InspectorView.o0#
+
+CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/InspectorView.o /Users/jasontratta/PaperQ/InspectorView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317497493.647164
+e317497493.835721
+r1
+xCompileC
+xbuild/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/InspectorView.o
+x/Users/jasontratta/PaperQ/InspectorView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/jasontratta/PaperQ/InspectorView.m317497493#317497493#0(0"0(0#0#41"/Users/jasontratta/PaperQ/InspectorView.m8603375776#991"    cd /Users/jasontratta/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/PaperQ/build/Debug -I/Users/jasontratta/PaperQ/build/Debug/include -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-hblpaiwwhnvtryepxasyftfhddhm/PaperQ_Prefix.pch -c /Users/jasontratta/PaperQ/InspectorView.m -o /Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/InspectorView.o0#
 
 CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/InspectorView.o /Users/jtratta/Dropbox/Code/PaperQ/InspectorView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282352385.883038
@@ -978,6 +1262,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@59"Compile /Users/jasontratta/Dropbox/Code/PaperQ/MyDocument.m317494997#317494998#0(0"0(0#0#51"/Users/jasontratta/Dropbox/Code/PaperQ/MyDocument.m8602970720#1106"    cd /Users/jasontratta/Dropbox/Code/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug -I/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/include -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-fkypezjbzaojolaszgbkdqawtfgg/PaperQ_Prefix.pch -c /Users/jasontratta/Dropbox/Code/PaperQ/MyDocument.m -o /Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/MyDocument-528B0CF58FE91DC2.o0#
+
+CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/MyDocument-528B0CF58FE91DC2.o /Users/jasontratta/PaperQ/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317497493.340630
+e317497493.585702
+r1
+xCompileC
+xbuild/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/MyDocument-528B0CF58FE91DC2.o
+x/Users/jasontratta/PaperQ/MyDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/jasontratta/PaperQ/MyDocument.m317497493#317497493#0(0"0(0#0#38"/Users/jasontratta/PaperQ/MyDocument.m8608618848#1002"    cd /Users/jasontratta/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/PaperQ/build/Debug -I/Users/jasontratta/PaperQ/build/Debug/include -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-hblpaiwwhnvtryepxasyftfhddhm/PaperQ_Prefix.pch -c /Users/jasontratta/PaperQ/MyDocument.m -o /Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/MyDocument-528B0CF58FE91DC2.o0#
 
 CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/MyDocument-528B0CF58FE91DC2.o /Users/jtratta/Dropbox/Code/PaperQ/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282352382.485338
@@ -1021,6 +1318,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@69"Compile /Users/jasontratta/Dropbox/Code/PaperQ/PreferenceController.m317494997#317494998#0(0"0(0#0#61"/Users/jasontratta/Dropbox/Code/PaperQ/PreferenceController.m8603119680#1109"    cd /Users/jasontratta/Dropbox/Code/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug -I/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/include -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-fkypezjbzaojolaszgbkdqawtfgg/PaperQ_Prefix.pch -c /Users/jasontratta/Dropbox/Code/PaperQ/PreferenceController.m -o /Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PreferenceController.o0#
 
+CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PreferenceController.o /Users/jasontratta/PaperQ/PreferenceController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317497493.342328
+e317497493.643402
+r1
+xCompileC
+xbuild/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PreferenceController.o
+x/Users/jasontratta/PaperQ/PreferenceController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/jasontratta/PaperQ/PreferenceController.m317497493#317497493#0(0"0(0#0#48"/Users/jasontratta/PaperQ/PreferenceController.m8603208544#1005"    cd /Users/jasontratta/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/PaperQ/build/Debug -I/Users/jasontratta/PaperQ/build/Debug/include -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-hblpaiwwhnvtryepxasyftfhddhm/PaperQ_Prefix.pch -c /Users/jasontratta/PaperQ/PreferenceController.m -o /Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PreferenceController.o0#
+
 CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PreferenceController.o /Users/jtratta/Dropbox/Code/PaperQ/PreferenceController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282352385.011356
 e282352385.375076
@@ -1049,6 +1359,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@58"Compile /Users/jasontratta/Dropbox/Code/PaperQ/PrintView.m317494998#317494998#0(0"0(0#0#50"/Users/jasontratta/Dropbox/Code/PaperQ/PrintView.m8603338336#1087"    cd /Users/jasontratta/Dropbox/Code/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug -I/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/include -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-fkypezjbzaojolaszgbkdqawtfgg/PaperQ_Prefix.pch -c /Users/jasontratta/Dropbox/Code/PaperQ/PrintView.m -o /Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PrintView.o0#
+
+CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PrintView.o /Users/jasontratta/PaperQ/PrintView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317497493.643552
+e317497493.837370
+r1
+xCompileC
+xbuild/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PrintView.o
+x/Users/jasontratta/PaperQ/PrintView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/jasontratta/PaperQ/PrintView.m317497493#317497493#0(0"0(0#0#37"/Users/jasontratta/PaperQ/PrintView.m8603498624#983"    cd /Users/jasontratta/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/PaperQ/build/Debug -I/Users/jasontratta/PaperQ/build/Debug/include -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-hblpaiwwhnvtryepxasyftfhddhm/PaperQ_Prefix.pch -c /Users/jasontratta/PaperQ/PrintView.m -o /Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PrintView.o0#
 
 CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PrintView.o /Users/jtratta/Dropbox/Code/PaperQ/PrintView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282352385.738441
@@ -1111,6 +1434,30 @@ o/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Heade
 o/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.h:59: warning: also found '-(void)pause'
 lSLF07#2@62"Compile /Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m317494997#317494998#0(1178"/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m: In function '-[QlabScripting getWorkspaces]':/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m:413: warning: unused variable 'arrayCount'/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m:412: warning: unused variable 'i'/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m: In function '-[QlabScripting stopCue]':/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m:459: warning: multiple methods named '-stop' found/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNetServices.h:139: warning: using '-(void)stop'/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSound.h:54: warning: also found '-(BOOL)stop'/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m: In function '-[QlabScripting pause]':/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m:469: warning: multiple methods named '-pause' found/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSound.h:52: warning: using '-(BOOL)pause'/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.h:59: warning: also found '-(void)pause'8(22@28"Unused variable 'arrayCount'317494997#102#98#0(6@54"/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m273257252#413#0#413#0#19"unused variable '*'0(22@19"Unused variable 'i'317494997#200#89#0(6@54"/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m273257252#412#0#412#0#19"unused variable '*'0(22@36"Multiple methods named '-stop' found317494997#385#106#0(6@54"/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m273257252#459#0#459#0#0"0(22@19"Using '-(void)stop'317494997#491#136#0(6@101"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNetServices.h236247371#139#0#139#0#0"0(22@24"Also found '-(BOOL)stop'317494997#627#130#0(6@91"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSound.h236253965#54#0#54#0#0"0(22@37"Multiple methods named '-pause' found317494997#851#107#0(6@54"/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m273257252#469#0#469#0#0"0(22@20"Using '-(BOOL)pause'317494997#958#126#0(6@91"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSound.h236253965#52#0#52#0#0"0(22@25"Also found '-(void)pause'317494997#1084#94#0(6@54"/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.h273257240#59#0#59#0#0"0(0#0#54"/Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m7089066384398104576#1095"    cd /Users/jasontratta/Dropbox/Code/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug -I/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/include -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-fkypezjbzaojolaszgbkdqawtfgg/PaperQ_Prefix.pch -c /Users/jasontratta/Dropbox/Code/PaperQ/QlabScripting.m -o /Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/QlabScripting.o0#
 
+CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/QlabScripting.o /Users/jasontratta/PaperQ/QlabScripting.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317497493.343385
+e317497493.646991
+r1
+xCompileC
+xbuild/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/QlabScripting.o
+x/Users/jasontratta/PaperQ/QlabScripting.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jasontratta/PaperQ/QlabScripting.m: In function '-[QlabScripting getWorkspaces]':
+o/Users/jasontratta/PaperQ/QlabScripting.m:413: warning: unused variable 'arrayCount'
+o/Users/jasontratta/PaperQ/QlabScripting.m:412: warning: unused variable 'i'
+o/Users/jasontratta/PaperQ/QlabScripting.m: In function '-[QlabScripting stopCue]':
+o/Users/jasontratta/PaperQ/QlabScripting.m:459: warning: multiple methods named '-stop' found
+o/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNetServices.h:139: warning: using '-(void)stop'
+o/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSound.h:54: warning: also found '-(BOOL)stop'
+o/Users/jasontratta/PaperQ/QlabScripting.m: In function '-[QlabScripting pause]':
+o/Users/jasontratta/PaperQ/QlabScripting.m:469: warning: multiple methods named '-pause' found
+o/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSound.h:52: warning: using '-(BOOL)pause'
+o/Users/jasontratta/PaperQ/QlabScripting.h:59: warning: also found '-(void)pause'
+lSLF07#2@49"Compile /Users/jasontratta/PaperQ/QlabScripting.m317497493#317497493#0(1074"/Users/jasontratta/PaperQ/QlabScripting.m: In function '-[QlabScripting getWorkspaces]':/Users/jasontratta/PaperQ/QlabScripting.m:413: warning: unused variable 'arrayCount'/Users/jasontratta/PaperQ/QlabScripting.m:412: warning: unused variable 'i'/Users/jasontratta/PaperQ/QlabScripting.m: In function '-[QlabScripting stopCue]':/Users/jasontratta/PaperQ/QlabScripting.m:459: warning: multiple methods named '-stop' found/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNetServices.h:139: warning: using '-(void)stop'/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSound.h:54: warning: also found '-(BOOL)stop'/Users/jasontratta/PaperQ/QlabScripting.m: In function '-[QlabScripting pause]':/Users/jasontratta/PaperQ/QlabScripting.m:469: warning: multiple methods named '-pause' found/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSound.h:52: warning: using '-(BOOL)pause'/Users/jasontratta/PaperQ/QlabScripting.h:59: warning: also found '-(void)pause'8(22@28"Unused variable 'arrayCount'317497493#89#85#0(6@41"/Users/jasontratta/PaperQ/QlabScripting.m273257252#413#0#413#0#19"unused variable '*'0(22@19"Unused variable 'i'317497493#174#76#0(6@41"/Users/jasontratta/PaperQ/QlabScripting.m273257252#412#0#412#0#19"unused variable '*'0(22@36"Multiple methods named '-stop' found317497493#333#93#0(6@41"/Users/jasontratta/PaperQ/QlabScripting.m273257252#459#0#459#0#0"0(22@19"Using '-(void)stop'317497493#426#136#0(6@101"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNetServices.h236247371#139#0#139#0#0"0(22@24"Also found '-(BOOL)stop'317497493#562#130#0(6@91"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSound.h236253965#54#0#54#0#0"0(22@37"Multiple methods named '-pause' found317497493#773#94#0(6@41"/Users/jasontratta/PaperQ/QlabScripting.m273257252#469#0#469#0#0"0(22@20"Using '-(BOOL)pause'317497493#867#126#0(6@91"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSound.h236253965#52#0#52#0#0"0(22@25"Also found '-(void)pause'317497493#993#81#0(6@41"/Users/jasontratta/PaperQ/QlabScripting.h273257240#59#0#59#0#0"0(0#0#41"/Users/jasontratta/PaperQ/QlabScripting.m8590888960#991"    cd /Users/jasontratta/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/PaperQ/build/Debug -I/Users/jasontratta/PaperQ/build/Debug/include -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-hblpaiwwhnvtryepxasyftfhddhm/PaperQ_Prefix.pch -c /Users/jasontratta/PaperQ/QlabScripting.m -o /Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/QlabScripting.o0#
+
 CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/QlabScripting.o /Users/jtratta/Dropbox/Code/PaperQ/QlabScripting.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282352385.206389
 e282352385.618465
@@ -1160,6 +1507,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@53"Compile /Users/jasontratta/Dropbox/Code/PaperQ/main.m317494997#317494997#0(0"0(0#0#45"/Users/jasontratta/Dropbox/Code/PaperQ/main.m8599311008#1077"    cd /Users/jasontratta/Dropbox/Code/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug -I/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/include -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-fkypezjbzaojolaszgbkdqawtfgg/PaperQ_Prefix.pch -c /Users/jasontratta/Dropbox/Code/PaperQ/main.m -o /Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/main.o0#
+
+CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/main.o /Users/jasontratta/PaperQ/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317497493.341580
+e317497493.524293
+r1
+xCompileC
+xbuild/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/main.o
+x/Users/jasontratta/PaperQ/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Compile /Users/jasontratta/PaperQ/main.m317497493#317497493#0(0"0(0#0#32"/Users/jasontratta/PaperQ/main.m8608380928#973"    cd /Users/jasontratta/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/PaperQ/build/Debug -I/Users/jasontratta/PaperQ/build/Debug/include -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -include /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-hblpaiwwhnvtryepxasyftfhddhm/PaperQ_Prefix.pch -c /Users/jasontratta/PaperQ/main.m -o /Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/main.o0#
 
 CCompileC build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/main.o /Users/jtratta/Dropbox/Code/PaperQ/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282352385.010191
@@ -1214,6 +1574,21 @@ r0
 CCompileXIB /Users/jasontratta/Dropbox/Code/PaperQ/StillSelector.xib
 r0
 
+CCompileXIB /Users/jasontratta/PaperQ/English.lproj/MainMenu.xib
+r0
+
+CCompileXIB /Users/jasontratta/PaperQ/English.lproj/MyDocument.xib
+r0
+
+CCompileXIB /Users/jasontratta/PaperQ/Inspector.xib
+r0
+
+CCompileXIB /Users/jasontratta/PaperQ/PrintBuilder.xib
+r0
+
+CCompileXIB /Users/jasontratta/PaperQ/StillSelector.xib
+r0
+
 CCompileXIB /Users/jtratta/Dropbox/Code/PaperQ/English.lproj/MainMenu.xib
 s280378365.241650
 e280378369.524427
@@ -1262,6 +1637,9 @@ r0
 CCopyStringsFile /Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 r0
 
+CCopyStringsFile /Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
 CCopyStringsFile /Users/jtratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 s280378364.823591
 e280378366.610137
@@ -1299,6 +1677,9 @@ x/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/Resource
 x/Users/jasontratta/Dropbox/Code/PaperQ/MyDocument.xcdatamodel
 o/Users/jasontratta/Dropbox/Code/PaperQ/MyDocument.xcdatamodel:GroupCue.groupCues: warning: GroupCue.groupCues -- to-many relationship does not have an inverse:  this is an advanced setting (no object can be in multiple destinations for a specific relationship) 
 lSLF07#2@69"Compile /Users/jasontratta/Dropbox/Code/PaperQ/MyDocument.xcdatamodel317494997#317494997#0(262"/Users/jasontratta/Dropbox/Code/PaperQ/MyDocument.xcdatamodel:GroupCue.groupCues: warning: GroupCue.groupCues -- to-many relationship does not have an inverse:  this is an advanced setting (no object can be in multiple destinations for a specific relationship) 1(22@170"GroupCue.groupCues -- to-many relationship does not have an inverse:  this is an advanced setting (no object can be in multiple destinations for a specific relationship) 317494997#18446744073709551615#0#0(6@61"/Users/jasontratta/Dropbox/Code/PaperQ/MyDocument.xcdatamodel315612756#0#0#0#0#0"0(0#0#61"/Users/jasontratta/Dropbox/Code/PaperQ/MyDocument.xcdatamodel8603335104#261"    cd /Users/jasontratta/Dropbox/Code/PaperQ    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 /Users/jasontratta/Dropbox/Code/PaperQ/MyDocument.xcdatamodel /Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/Resources/MyDocument.mom0#
+
+CDataModelCompile /Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Resources/MyDocument.mom /Users/jasontratta/PaperQ/MyDocument.xcdatamodel
+r0
 
 CDataModelCompile /Users/jtratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/Resources/MyDocument.mom /Users/jtratta/Dropbox/Code/PaperQ/MyDocument.xcdatamodel
 s281489866.772295
@@ -1340,6 +1721,16 @@ xnormal
 xi386
 lSLF07#2@88"Link /Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/MacOS/PaperQ317494998#317495001#0(0"0(0#0#0"8602666240#581"    cd /Users/jasontratta/Dropbox/Code/PaperQ    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug -F/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug -filelist /Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PaperQ.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework ScriptingBridge -framework QuickTime -o /Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/MacOS/PaperQ0#
 
+CLd /Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/MacOS/PaperQ normal i386
+s317497493.849651
+e317497493.905578
+r1
+xLd
+x/Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/MacOS/PaperQ
+xnormal
+xi386
+lSLF07#2@75"Link /Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/MacOS/PaperQ317497493#317497493#0(0"0(0#0#0"8607941216#516"    cd /Users/jasontratta/PaperQ    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/jasontratta/PaperQ/build/Debug -F/Users/jasontratta/PaperQ/build/Debug -filelist /Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/Objects-normal/i386/PaperQ.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework ScriptingBridge -framework QuickTime -o /Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/MacOS/PaperQ0#
+
 CLd /Users/jtratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/MacOS/PaperQ normal i386
 s282352386.095707
 e282352387.754729
@@ -1354,6 +1745,9 @@ CProcessInfoPlistFile /Users/jason/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Co
 r0
 
 CProcessInfoPlistFile /Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/Info.plist Info.plist
+r0
+
+CProcessInfoPlistFile /Users/jasontratta/PaperQ/build/Debug/PaperQ.app/Contents/Info.plist Info.plist
 r0
 
 CProcessInfoPlistFile /Users/jtratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app/Contents/Info.plist Info.plist
@@ -1417,6 +1811,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@28"Precompile PaperQ_Prefix.pch317494983#317494997#0(0"0(0#0#56"/Users/jasontratta/Dropbox/Code/PaperQ/PaperQ_Prefix.pch7669455868700294144#986"    cd /Users/jasontratta/Dropbox/Code/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug -I/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/include -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/Dropbox/Code/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -c /Users/jasontratta/Dropbox/Code/PaperQ/PaperQ_Prefix.pch -o /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-fkypezjbzaojolaszgbkdqawtfgg/PaperQ_Prefix.pch.gch0#
 
+CProcessPCH /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-hblpaiwwhnvtryepxasyftfhddhm/PaperQ_Prefix.pch.gch PaperQ_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317497490.321004
+e317497493.340381
+r1
+xProcessPCH
+x/var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-hblpaiwwhnvtryepxasyftfhddhm/PaperQ_Prefix.pch.gch
+xPaperQ_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile PaperQ_Prefix.pch317497490#317497493#0(0"0(0#0#43"/Users/jasontratta/PaperQ/PaperQ_Prefix.pch8392016350611466240#895"    cd /Users/jasontratta/PaperQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/PaperQ.hmap -F/Users/jasontratta/PaperQ/build/Debug -I/Users/jasontratta/PaperQ/build/Debug/include -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources/i386 -I/Users/jasontratta/PaperQ/build/PaperQ.build/Debug/PaperQ.build/DerivedSources -c /Users/jasontratta/PaperQ/PaperQ_Prefix.pch -o /var/folders/hP/hPcQ1RpmF6m0jZpm8Ijgpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PaperQ_Prefix-hblpaiwwhnvtryepxasyftfhddhm/PaperQ_Prefix.pch.gch0#
+
 CTouch /Users/jason/Dropbox/Code/PaperQ/build/Debug/PaperQ.app
 s283730345.277407
 e283730345.279929
@@ -1432,6 +1839,14 @@ r1
 xTouch
 x/Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app
 lSLF07#2@67"Touch /Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app317495001#317495001#0(0"0(0#0#0"8603232800#130"    cd /Users/jasontratta/Dropbox/Code/PaperQ    /usr/bin/touch -c /Users/jasontratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app0#
+
+CTouch /Users/jasontratta/PaperQ/build/Debug/PaperQ.app
+s317497493.905857
+e317497493.908699
+r1
+xTouch
+x/Users/jasontratta/PaperQ/build/Debug/PaperQ.app
+lSLF07#2@54"Touch /Users/jasontratta/PaperQ/build/Debug/PaperQ.app317497493#317497493#0(0"0(0#0#0"8604100032#104"    cd /Users/jasontratta/PaperQ    /usr/bin/touch -c /Users/jasontratta/PaperQ/build/Debug/PaperQ.app0#
 
 CTouch /Users/jtratta/Dropbox/Code/PaperQ/build/Debug/PaperQ.app
 s282352387.754970

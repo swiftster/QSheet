@@ -10,7 +10,21 @@
 
 
 @interface PrintView : NSView {
+	
+	
+	NSManagedObject *workspaces;
+	
+	float lineHeight; 
+	NSRect pageRect; 
+	int linesPerPage; 
+	int currentPage; 
+	
 
 }
+
+@property (readwrite, assign) NSManagedObject *workspaces; 
+
+
+-(id)initWithWorkspaces:(NSArray *)workspace;
 
 @end

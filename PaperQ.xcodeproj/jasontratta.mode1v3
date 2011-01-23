@@ -266,16 +266,25 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>2A37F4AAFDCFA73011CA2CEA</string>
+								<string>E1B74B1A0667B4A90069E3BA</string>
+								<string>2A37F4ABFDCFA73011CA2CEA</string>
+								<string>38970D0210B5D5CB0056017A</string>
+								<string>3881918F106E947F001E93F2</string>
+								<string>2A37F4AFFDCFA73011CA2CEA</string>
+								<string>2A37F4B8FDCFA73011CA2CEA</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>8</integer>
+									<integer>4</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 445}}</string>
+							<string>{{0, 2}, {186, 696}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -287,14 +296,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 463}}</string>
+						<string>{{0, 0}, {203, 714}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>210 359 788 504 0 0 1440 878 </string>
+						<string>81 123 1192 755 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -310,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MyNewFile14.java</string>
+								<string>PrintView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -318,7 +327,30 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MyNewFile14.java</string>
+										<string>PrintView.m</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>85C6F24412ECA3C300F265E4</string>
+										<key>history</key>
+										<array>
+											<string>85C6F23412ECA3C300F265E4</string>
+											<string>85C6F23512ECA3C300F265E4</string>
+											<string>85C6F23612ECA3C300F265E4</string>
+											<string>85C6F23712ECA3C300F265E4</string>
+											<string>85C6F23812ECA3C300F265E4</string>
+											<string>85C6F23912ECA3C300F265E4</string>
+											<string>85C6F23A12ECA3C300F265E4</string>
+											<string>85C6F23B12ECA3C300F265E4</string>
+											<string>85C6F23C12ECA3C300F265E4</string>
+											<string>85C6F23D12ECA3C300F265E4</string>
+											<string>85C6F23E12ECA3C300F265E4</string>
+											<string>85C6F23F12ECA3C300F265E4</string>
+											<string>85C6F24012ECA3C300F265E4</string>
+											<string>85C6F24112ECA3C300F265E4</string>
+											<string>85C6F24212ECA3C300F265E4</string>
+											<string>85C6F24312ECA3C300F265E4</string>
+										</array>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -329,14 +361,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 277}}</string>
+								<string>{{0, 0}, {984, 709}}</string>
 								<key>RubberWindowFrame</key>
-								<string>210 359 788 504 0 0 1440 878 </string>
+								<string>81 123 1192 755 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>277pt</string>
+							<string>709pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -349,18 +381,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 282}, {580, 181}}</string>
+								<string>{{0, 714}, {984, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>210 359 788 504 0 0 1440 878 </string>
+								<string>81 123 1192 755 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>0pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>580pt</string>
+					<string>984pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -375,9 +407,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>855DB3BE12EC96C2002491E3</string>
+				<string>85C6F24512ECA3C300F265E4</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>855DB3BF12EC96C2002491E3</string>
+				<string>85C6F24612ECA3C300F265E4</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -515,15 +547,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>855DB3EB12EC9883002491E3</string>
-		<string>855DB3EC12EC9883002491E3</string>
+		<string>85C6F24F12ECA3C300F265E4</string>
+		<string>85C6F25012ECA3C300F265E4</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>855DB3C112EC96C2002491E3</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>/Users/jasontratta/Dropbox/Code/PaperQ/PaperQ.xcodeproj</string>
+		<string>/Users/jasontratta/PaperQ/PaperQ.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>210 359 788 504 0 0 1440 878 </string>
+	<string>81 123 1192 755 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -600,7 +632,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>855DB3C112EC96C2002491E3</string>
-				<string>855DB3C212EC96C2002491E3</string>
+				<string>85C6F24712ECA3C300F265E4</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -644,8 +676,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 185}}</string>
-											<string>{{316, 0}, {378, 185}}</string>
+											<string>{{0, 0}, {316, 194}}</string>
+											<string>{{316, 0}, {378, 194}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -660,8 +692,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 185}}</string>
-											<string>{{0, 185}, {694, 196}}</string>
+											<string>{{0, 0}, {694, 194}}</string>
+											<string>{{0, 194}, {694, 187}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -694,7 +726,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 185}}</string>
+									<string>{{316, 0}, {378, 194}}</string>
 									<key>RubberWindowFrame</key>
 									<string>655 433 694 422 0 0 1440 878 </string>
 								</dict>
@@ -722,13 +754,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>855DB3E412EC9883002491E3</string>
+				<string>85C6F24812ECA3C300F265E4</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>855DB3E512EC9883002491E3</string>
-				<string>855DB3E612EC9883002491E3</string>
-				<string>855DB3E712EC9883002491E3</string>
-				<string>855DB3E812EC9883002491E3</string>
-				<string>855DB3E912EC9883002491E3</string>
+				<string>85C6F24912ECA3C300F265E4</string>
+				<string>85C6F24A12ECA3C300F265E4</string>
+				<string>85C6F24B12ECA3C300F265E4</string>
+				<string>85C6F24C12ECA3C300F265E4</string>
+				<string>85C6F24D12ECA3C300F265E4</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -892,7 +924,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>855DB3EA12EC9883002491E3</string>
+				<string>85C6F24E12ECA3C300F265E4</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
