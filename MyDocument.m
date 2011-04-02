@@ -17,6 +17,8 @@
     if (self != nil) {
 	queue = [[NSOperationQueue alloc] init];
     }
+    
+    printView = [[PrintView alloc] init]; 
     return self;
 }
 

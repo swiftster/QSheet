@@ -17,31 +17,24 @@
 
 - (id)initWithFrame:(NSRect)frame 
 {
+    NSLog(@"Print View Init");
     [super initWithFrame:frame];
     
     // Make a dictionary of attributes
     NSMutableDictionary *d = [NSMutableDictionary dictionary];
-    [d setObject:[NSColor greenColor]
+    [d setObject:[NSColor blackColor]
           forKey:NSForegroundColorAttributeName];
     
     // Create an attributed string
-    atString = [[NSMutableAttributedString alloc] initWithString:@"This is the stuff" 
-                                                      attributes:d];
-    
-    // Underline the last word
-    d = [NSMutableDictionary dictionary];
-    [d setObject:[NSNumber numberWithInt:1]
-          forKey:NSUnderlineStyleAttributeName];
-    
-    // Change the attributes over a range
-    [atString setAttributes:d range:NSMakeRange(12, 5)];
+    atString = [[NSMutableAttributedString alloc] initWithString:@"Production Cue Sheet" attributes:d];
+
     
     // Put it in a big font
-    NSFont *f = [NSFont fontWithName:@"Helvetica" size:64];
+    NSFont *f = [NSFont fontWithName:@"Helvetica" size:20];
     d = [NSMutableDictionary dictionary];
     [d setObject:f
           forKey:NSFontAttributeName];
-    [atString addAttributes:d range:NSMakeRange(0, 17)];    
+    [atString addAttributes:d range:NSMakeRange(0, 20)];    
     return self;
 }
 

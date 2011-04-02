@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "PrintView.h"
 
 @interface MyDocument : NSPersistentDocument {
 	
@@ -15,6 +16,8 @@
 	
 	NSToolbarItem *importButton; 
 	NSPanel *inspectorWindow;
+    
+    IBOutlet PrintView *printView; 
 	
 	
 }
