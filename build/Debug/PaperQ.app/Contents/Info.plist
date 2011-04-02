@@ -87,6 +87,8 @@
 	<string>PPRQ</string>
 	<key>CFBundleVersion</key>
 	<string>22</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>

@@ -8,91 +8,55 @@
 
 #import "PrintView.h"
 
-@synthesize workspaces 
 
 
 @implementation PrintView
 
-- (id)initWithFrame:(NSRect)frame {
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code here.
-    }
+@synthesize workspaces; 
+
+
+- (id)initWithFrame:(NSRect)frame 
+{
+    [super initWithFrame:frame];
+    
+    // Make a dictionary of attributes
+    NSMutableDictionary *d = [NSMutableDictionary dictionary];
+    [d setObject:[NSColor greenColor]
+          forKey:NSForegroundColorAttributeName];
+    
+    // Create an attributed string
+    atString = [[NSMutableAttributedString alloc] initWithString:@"This is the stuff" 
+                                                      attributes:d];
+    
+    // Underline the last word
+    d = [NSMutableDictionary dictionary];
+    [d setObject:[NSNumber numberWithInt:1]
+          forKey:NSUnderlineStyleAttributeName];
+    
+    // Change the attributes over a range
+    [atString setAttributes:d range:NSMakeRange(12, 5)];
+    
+    // Put it in a big font
+    NSFont *f = [NSFont fontWithName:@"Helvetica" size:64];
+    d = [NSMutableDictionary dictionary];
+    [d setObject:f
+          forKey:NSFontAttributeName];
+    [atString addAttributes:d range:NSMakeRange(0, 17)];    
     return self;
 }
 
--(id)initWithWorkspaces:(NSArray *)workspace 
-{ 
-	//Call the superclass init with dummy frame 
-	[super initWithFrame:NSMakeRect(0, 0, 700, 700)];
-	 workspaces = workspace; 
-	
-	
-	return self; 
-	 
+- (void)dealloc
+{
+    [atString release];
+    [super dealloc];
 }
 
-
-
-#pragma mark Pagnation 
-
--(BOOL)knowsPageRange:(NSRangePointer)range 
-{ 
-	NSPrintOperation *po = [NSPrintOperation currentOperation]; 
-	NSPrintInfo *printInfo = [po printInfo]; 
-	
-	//Where Can I Draw?
-	pageRect = [printInfo imageablePageBounds]; 
-	NSRect newFrame; 
-	newFrame.origin = NSZeroPoint; 
-	newFrame.size = [printInfo paperSize]; 
-	[self setFrame:newFrame]; 
-	
-	//How Many Lines Per Page?
-	linesPerPage = pageRect.size.height / lineHeight; 
-	
-	//Pages are 1 based
-	range->location = 1;
-	
-	//How Many pages will it take?
-	
-	
-	return YES; 
-	
-}
-	
-
--(NSRect)rectForPage:(NSInteger)page 
-{ 
-	//Note the current page 
-	currentPage = i - 1; 
-	
-	//Return the same page rect everytime 
-	return pageRect; 
-	
+- (void)drawRect:(NSRect)rect 
+{
+    // Draw the string
+    [atString drawInRect:[self bounds]];
 }
 
-#pragma mark drawing 
-
--(BOOL)isFlipped 
-{ 
-	return YES; 
-
-}
-
-
-- (void)drawRect:(NSRect)dirtyRect {
-    // Drawing code here.
-	
-	NSRect nameRect; 
-	NSRect raiseRect; 
-	
-	raiseRect.size.height = nameRect.size.height = lineHeight; 
-	nameRect.size.width = 200.0; 
-	raiseRect.origin.x = NSMaxX(nameRect); 
-	raiseRect.size.width = 100.0; 
-	
-}
 
 
 @end

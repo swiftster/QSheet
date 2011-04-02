@@ -13,11 +13,9 @@
 	
 	
 	NSManagedObject *workspaces;
+    NSMutableAttributedString *atString;
 	
-	float lineHeight; 
-	NSRect pageRect; 
-	int linesPerPage; 
-	int currentPage; 
+
 	
 
 }
