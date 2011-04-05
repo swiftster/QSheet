@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "MyDocument.h"
+#import "AppController.h"
 #import "QlabScripting.h"
 #import "Qlab.h"
 @class QServer_AppDelegate;
@@ -15,7 +15,7 @@
 
 @interface ImportOp : NSOperation {
 	
-	MyDocument *appDelegate;
+	AppController *appDelegate;
 	NSManagedObjectContext *mainMOC;
 	int sortInt;
 	
@@ -23,11 +23,11 @@
 }
 
 
-@property (assign) MyDocument *appDelegate;
+@property (assign) AppController *appDelegate;
 @property (readwrite, assign) NSManagedObjectContext *mainMOC; 
 @property (readwrite, assign) int sortInt;
 
-- (id)initWithDelegate:(MyDocument*)aDelegate;
+- (id)initWithDelegate:(AppController*)aDelegate;
 - (NSManagedObjectContext*)newContextToMainStore;
 - (void)contextDidSave:(NSNotification*)notification;
 

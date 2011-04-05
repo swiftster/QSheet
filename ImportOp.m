@@ -18,7 +18,7 @@
 
 
 
-- (id)initWithDelegate:(MyDocument*)delegate
+- (id)initWithDelegate:(AppController*)delegate
 {
 	if (!(self = [super init])) return nil;
 	

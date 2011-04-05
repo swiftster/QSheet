@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "PrintView.h"
 
-@interface MyDocument : NSPersistentDocument {
+@interface AppController : NSPersistentDocument {
 	
 	NSOperationQueue *genericOperationQueue;
 	NSOperation *queue;
@@ -23,6 +23,7 @@
 }
 
 - (IBAction)import:(id)sender;
+-(IBAction)test:(id)sender; 
 
 
 @end

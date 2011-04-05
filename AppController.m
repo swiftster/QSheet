@@ -6,10 +6,10 @@
 //  Copyright __MyCompanyName__ 2009 . All rights reserved.
 //
 
-#import "MyDocument.h"
+#import "AppController.h"
 #import "ImportOp.h"
 
-@implementation MyDocument
+@implementation AppController
 
 - (id)init 
 {
@@ -51,12 +51,32 @@
 		
 		[genericOperationQueue addOperation:op];
 		[op release], op = nil;
-		
-	}
-	
+    
+}
+
+-(IBAction)test:(id)sender
+{ 
+    NSFetchRequest *request = [[NSFetchRequest alloc] init]; 
+    [request setEntity:[NSEntityDescription entityForName:@"Workspace" inManagedObjectContext:[self managedObjectContext]]]; 
+    NSError *error = nil; 
+    NSArray *result = [[self managedObjectContext]executeFetchRequest:request error:&error];
+    NSLog(@"Result:%i",[result count]);
+    [printView setWorkspaces:result]; 
+    [printView displayCueArray]; 
+    
+}
 	
 
-	
+-(void)sendTheWorkspace 
+{ 
+    NSFetchRequest *request = [[NSFetchRequest alloc] init]; 
+    [request setEntity:[NSEntityDescription entityForName:@"Workspace" inManagedObjectContext:[self managedObjectContext]]]; 
+    NSError *error = nil; 
+    NSArray *result = [[self managedObjectContext]executeFetchRequest:request error:&error];
+    NSLog(@"Result:%i",[result count]);
+    [printView setWorkspaces:result]; 
+    [printView displayCueArray]; 
+}
 
 
 @end

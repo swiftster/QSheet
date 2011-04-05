@@ -9,20 +9,26 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface PrintView : NSView {
+@interface PrintView : NSTextView {
 	
 	
-	NSManagedObject *workspaces;
-    NSMutableAttributedString *atString;
+	NSArray *workspaces;
+    NSTextStorage *atString;
+    NSLayoutManager *layoutManager;
 	
 
 	
 
 }
 
-@property (readwrite, assign) NSManagedObject *workspaces; 
+@property (readwrite, assign) NSArray *workspaces; 
+@property (readwrite, assign) NSTextStorage *atString;
 
 
--(id)initWithWorkspaces:(NSArray *)workspace;
+//-(id)initWithWorkspaces:(NSArray *)workspace;
+
+-(void)setUpTitleBlock;
+-(void)addCues;
+-(void)displayCueArray;
 
 @end
