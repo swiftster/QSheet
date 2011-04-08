@@ -142,14 +142,18 @@
     
             
         
-        NSFont *twelveFont = [NSFont fontWithName:@"Helvetica" size:12];
+        NSFont *twelveFont = [NSFont boldSystemFontOfSize:12];
         NSMutableDictionary *cueSubFont = [NSMutableDictionary dictionary];
         [cueSubFont setObject:twelveFont forKey:NSFontAttributeName];
+     
         
         
         NSMutableAttributedString *cueString = [[NSMutableAttributedString alloc] initWithString:@"#" attributes:cueSubFont]; 
         NSMutableAttributedString *cueName = [[NSMutableAttributedString alloc] initWithString:@"Q" attributes:cueSubFont]; 
         NSMutableAttributedString *noteString = [[NSMutableAttributedString alloc] initWithString:@"Notes" attributes:cueSubFont]; 
+        
+        
+    
         NSMutableAttributedString *targetString = [[NSMutableAttributedString alloc] initWithString:@"Target" attributes:cueSubFont];
         
         NSAttributedString *singleTab = [[NSAttributedString alloc] initWithString:@"\t"]; 
@@ -163,6 +167,11 @@
         [atString appendAttributedString:noteString]; 
         [atString appendAttributedString:fiveTabs];
         [atString appendAttributedString:targetString];  
+    
+    
+    //Line Break  
+    NSAttributedString *lineBreak = [[NSAttributedString alloc] initWithString:@"\n"]; 
+    [atString appendAttributedString:lineBreak]; 
         
         
         
@@ -205,12 +214,19 @@
         NSMutableAttributedString *cueName = [[NSMutableAttributedString alloc] 
                                               initWithString:[cue valueForKey:@"qName"]attributes:cueSubFont]; 
         
+        NSString *longTarget = [cue valueForKey:@"fileTarget"];
+         
+     
+        NSString *shortendString = [longTarget lastPathComponent];
+        
         NSMutableAttributedString *targetString = [[NSMutableAttributedString alloc] 
-                                                   initWithString:[cue valueForKey:@"fileTarget"]attributes:cueSubFont];
+                                                   initWithString:shortendString attributes:cueSubFont];
+        
+        //This method of spacing is prob not going to work consistantly. !!!!!
         
         NSAttributedString *singleTab = [[NSAttributedString alloc] initWithString:@"\t"]; 
         NSAttributedString *threeTabs = [[NSAttributedString alloc] initWithString:@"\t \t \t \t \t"];
-        NSAttributedString *fiveTabs = [[NSAttributedString alloc] initWithString:@"\t \t \t \t \t"];
+        NSAttributedString *fiveTabs = [[NSAttributedString alloc] initWithString:@"\t \t \t"];
         
         
         [atString appendAttributedString:cueString];

@@ -25,6 +25,7 @@
      [super initWithFrame:frame];
 
     
+    
     // Create an attributed string
     atString = [[NSMutableAttributedString alloc] init];
 
@@ -49,8 +50,16 @@
 {
     // Draw the string
   
-    //[super drawRect:rect]; 
+   // [super drawRect:rect];
+    
+   // [[NSColor whiteColor] set];
+   // [NSBezierPath fillRect:[self bounds]];
+   
+    
+    
+    
     [atString drawInRect:[self bounds]];
+   
 }
 
 

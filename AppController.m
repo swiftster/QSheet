@@ -43,6 +43,8 @@
     [printView setAtString:[stringMake atString]]; 
     [printView setNeedsDisplay:YES]; 
     
+    //Create a Production Block Object
+    
     
 }
 
@@ -74,7 +76,7 @@
     NSError *error = nil; 
     NSArray *result = [[self managedObjectContext]executeFetchRequest:request error:&error];
     NSLog(@"Result:%i",[result count]);
-    //NSLog(@"atString from appCon:%@",[printView atString]);
+   
     
     SheetStringMaker *stringMake = [[SheetStringMaker alloc] init]; 
     [stringMake setWorkspaces:result];
