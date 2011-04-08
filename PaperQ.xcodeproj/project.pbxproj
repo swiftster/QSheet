@@ -16,6 +16,7 @@
 		388191A0106E9551001E93F2 /* MyDocument.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 3881919F106E9551001E93F2 /* MyDocument.xcdatamodel */; };
 		38970D0110B5D4AE0056017A /* DataScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38970D0010B5D4AE0056017A /* DataScrollView.m */; };
 		775DFF38067A968500C5B868 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		85FBA236134F4C1500CA1A2B /* SheetStringMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FBA235134F4C1500CA1A2B /* SheetStringMaker.m */; };
 		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		8D15AC310486D014006FF6A4 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* AppController.m */; settings = {ATTRIBUTES = (); }; };
@@ -48,6 +49,8 @@
 		38970CFF10B5D4AE0056017A /* DataScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataScrollView.h; sourceTree = "<group>"; };
 		38970D0010B5D4AE0056017A /* DataScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataScrollView.m; sourceTree = "<group>"; };
 		7788DA0506752A1600599AAD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		85FBA234134F4C1500CA1A2B /* SheetStringMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheetStringMaker.h; sourceTree = "<group>"; };
+		85FBA235134F4C1500CA1A2B /* SheetStringMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheetStringMaker.m; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* PaperQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9644A5ED10C81D6300E0313B /* PrintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintView.h; sourceTree = "<group>"; };
@@ -181,6 +184,8 @@
 				9644A5EE10C81D6300E0313B /* PrintView.m */,
 				9644A65E10C85AFC00E0313B /* InspectorView.h */,
 				9644A65F10C85AFC00E0313B /* InspectorView.m */,
+				85FBA234134F4C1500CA1A2B /* SheetStringMaker.h */,
+				85FBA235134F4C1500CA1A2B /* SheetStringMaker.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				38970D0110B5D4AE0056017A /* DataScrollView.m in Sources */,
 				9644A5EF10C81D6300E0313B /* PrintView.m in Sources */,
 				9644A66010C85AFC00E0313B /* InspectorView.m in Sources */,
+				85FBA236134F4C1500CA1A2B /* SheetStringMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

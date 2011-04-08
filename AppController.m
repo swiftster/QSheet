@@ -8,8 +8,12 @@
 
 #import "AppController.h"
 #import "ImportOp.h"
+#import "PrintView.h"
+#import "SheetStringMaker.h"
 
 @implementation AppController
+
+@synthesize saveViewString;
 
 - (id)init 
 {
@@ -18,7 +22,8 @@
 	queue = [[NSOperationQueue alloc] init];
     }
     
-    printView = [[PrintView alloc] init]; 
+  
+   
     return self;
 }
 
@@ -31,6 +36,14 @@
 {
     [super windowControllerDidLoadNib:windowController];
     // user interface preparation code
+    
+    SheetStringMaker *stringMake = [[SheetStringMaker alloc] init]; 
+    [stringMake setUpTitleBlock]; 
+    [stringMake addCues]; 
+    [printView setAtString:[stringMake atString]]; 
+    [printView setNeedsDisplay:YES]; 
+    
+    
 }
 
 
@@ -61,8 +74,18 @@
     NSError *error = nil; 
     NSArray *result = [[self managedObjectContext]executeFetchRequest:request error:&error];
     NSLog(@"Result:%i",[result count]);
-    [printView setWorkspaces:result]; 
-    [printView displayCueArray]; 
+    //NSLog(@"atString from appCon:%@",[printView atString]);
+    
+    SheetStringMaker *stringMake = [[SheetStringMaker alloc] init]; 
+    [stringMake setWorkspaces:result];
+    [stringMake setUpTitleBlock]; 
+    [stringMake addCues];
+    [stringMake displayCueArray];
+     NSLog(@"String:%@",[stringMake atString]);
+    [printView setAtString:[stringMake atString]]; 
+    NSLog(@"Print:%@",[printView atString]);
+    [printView setNeedsDisplay:YES];
+  
     
 }
 	

@@ -9,12 +9,13 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface PrintView : NSTextView {
+@interface PrintView : NSView {
 	
 	
 	NSArray *workspaces;
-    NSTextStorage *atString;
+    NSMutableAttributedString *atString;
     NSLayoutManager *layoutManager;
+    BOOL isTitleBlockDrawn;
 	
 
 	
@@ -22,13 +23,11 @@
 }
 
 @property (readwrite, assign) NSArray *workspaces; 
-@property (readwrite, assign) NSTextStorage *atString;
+@property (readwrite, assign) NSMutableAttributedString *atString;
+
+@property (readwrite, assign) BOOL isTitleBlockDrawn;
 
 
-//-(id)initWithWorkspaces:(NSArray *)workspace;
 
--(void)setUpTitleBlock;
--(void)addCues;
--(void)displayCueArray;
 
 @end

@@ -18,9 +18,13 @@
 	NSPanel *inspectorWindow;
     
     IBOutlet PrintView *printView; 
+    
+    NSMutableAttributedString *saveViewString; 
 	
 	
 }
+
+@property (readwrite, retain) NSMutableAttributedString *saveViewString; 
 
 - (IBAction)import:(id)sender;
 -(IBAction)test:(id)sender; 
